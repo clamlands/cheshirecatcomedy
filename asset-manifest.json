@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cheshirecatcomedy/static/css/main.a255d643.css",
-    "main.js": "/cheshirecatcomedy/static/js/main.9e4dda03.js",
+    "main.css": "/cheshirecatcomedy/static/css/main.db8e5876.css",
+    "main.js": "/cheshirecatcomedy/static/js/main.a3dae3e7.js",
     "static/media/katie.jpeg": "/cheshirecatcomedy/static/media/katie.edaaa207b17cd88de29d.jpeg",
     "static/media/wwn.png": "/cheshirecatcomedy/static/media/wwn.339dc04f44163a221b37.png",
     "static/media/maga.png": "/cheshirecatcomedy/static/media/maga.4785cf8ceb35661372bc.png",
@@ -21,7 +21,9 @@
     "static/media/goodvibes.jpg": "/cheshirecatcomedy/static/media/goodvibes.376c632085c0de72eee7.jpg",
     "static/media/machine.jpg": "/cheshirecatcomedy/static/media/machine.d8b53be95848b7991dd9.jpg",
     "static/media/presents2.png": "/cheshirecatcomedy/static/media/presents2.f63edc76a5309dd930a2.png",
+    "static/media/rush-hour.jpeg": "/cheshirecatcomedy/static/media/rush-hour.03b814b19022cae11f48.jpeg",
     "static/media/comedyplus.jpg": "/cheshirecatcomedy/static/media/comedyplus.0f387d098a899ef3c38b.jpg",
+    "static/media/aidan.jpeg": "/cheshirecatcomedy/static/media/aidan.a7c0a20513ef27085549.jpeg",
     "static/media/brink.png": "/cheshirecatcomedy/static/media/brink.f88efcec3abe01d48a59.png",
     "static/media/crowd2.jpg": "/cheshirecatcomedy/static/media/crowd2.a11dbad3224417327af6.jpg",
     "static/media/paddy.jpeg": "/cheshirecatcomedy/static/media/paddy.269bd95869d7d11c589f.jpeg",
@@ -36,11 +38,11 @@
     "static/media/robinia.webp": "/cheshirecatcomedy/static/media/robinia.e839f78a73a0f04942a5.webp",
     "static/media/eventbrite.svg": "/cheshirecatcomedy/static/media/eventbrite.0e78be3cf8e789e4e75964481afc3882.svg",
     "index.html": "/cheshirecatcomedy/index.html",
-    "main.a255d643.css.map": "/cheshirecatcomedy/static/css/main.a255d643.css.map",
-    "main.9e4dda03.js.map": "/cheshirecatcomedy/static/js/main.9e4dda03.js.map"
+    "main.db8e5876.css.map": "/cheshirecatcomedy/static/css/main.db8e5876.css.map",
+    "main.a3dae3e7.js.map": "/cheshirecatcomedy/static/js/main.a3dae3e7.js.map"
   },
   "entrypoints": [
-    "static/css/main.a255d643.css",
-    "static/js/main.9e4dda03.js"
+    "static/css/main.db8e5876.css",
+    "static/js/main.a3dae3e7.js"
   ]
 }
