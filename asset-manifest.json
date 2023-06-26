@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cheshirecatcomedy/static/css/main.db8e5876.css",
-    "main.js": "/cheshirecatcomedy/static/js/main.a3dae3e7.js",
+    "main.css": "/cheshirecatcomedy/static/css/main.1cbf5659.css",
+    "main.js": "/cheshirecatcomedy/static/js/main.fc7b55ac.js",
     "static/media/katie.jpeg": "/cheshirecatcomedy/static/media/katie.edaaa207b17cd88de29d.jpeg",
     "static/media/wwn.png": "/cheshirecatcomedy/static/media/wwn.339dc04f44163a221b37.png",
     "static/media/maga.png": "/cheshirecatcomedy/static/media/maga.4785cf8ceb35661372bc.png",
@@ -36,13 +36,12 @@
     "static/media/logo-small.png": "/cheshirecatcomedy/static/media/logo-small.c3f0c7bdf85ca942e002.png",
     "static/media/cabin.webp": "/cheshirecatcomedy/static/media/cabin.93cda67370a94fea5340.webp",
     "static/media/robinia.webp": "/cheshirecatcomedy/static/media/robinia.e839f78a73a0f04942a5.webp",
-    "static/media/eventbrite.svg": "/cheshirecatcomedy/static/media/eventbrite.0e78be3cf8e789e4e75964481afc3882.svg",
     "index.html": "/cheshirecatcomedy/index.html",
-    "main.db8e5876.css.map": "/cheshirecatcomedy/static/css/main.db8e5876.css.map",
-    "main.a3dae3e7.js.map": "/cheshirecatcomedy/static/js/main.a3dae3e7.js.map"
+    "main.1cbf5659.css.map": "/cheshirecatcomedy/static/css/main.1cbf5659.css.map",
+    "main.fc7b55ac.js.map": "/cheshirecatcomedy/static/js/main.fc7b55ac.js.map"
   },
   "entrypoints": [
-    "static/css/main.db8e5876.css",
-    "static/js/main.a3dae3e7.js"
+    "static/css/main.1cbf5659.css",
+    "static/js/main.fc7b55ac.js"
   ]
 }
