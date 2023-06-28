@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/cheshirecatcomedy/static/css/main.2d5303d1.css",
-    "main.js": "/cheshirecatcomedy/static/js/main.5b6e1f13.js",
+    "main.js": "/cheshirecatcomedy/static/js/main.92f7c8bc.js",
     "static/media/katie.jpeg": "/cheshirecatcomedy/static/media/katie.edaaa207b17cd88de29d.jpeg",
     "static/media/wwn.png": "/cheshirecatcomedy/static/media/wwn.339dc04f44163a221b37.png",
     "static/media/maga.png": "/cheshirecatcomedy/static/media/maga.4785cf8ceb35661372bc.png",
@@ -10,6 +10,7 @@
     "static/media/thirsty.png": "/cheshirecatcomedy/static/media/thirsty.365aa03706031790f6a6.png",
     "static/media/crowd4.jpg": "/cheshirecatcomedy/static/media/crowd4.27ee0b4d90a1f343535a.jpg",
     "static/media/sasha.jpg": "/cheshirecatcomedy/static/media/sasha.700d6a1c3d6cab87ae0a.jpg",
+    "static/media/crowd3-test.jpg": "/cheshirecatcomedy/static/media/crowd3-test.877de1e99caf9dde4eb7.jpg",
     "static/media/hunter.jpeg": "/cheshirecatcomedy/static/media/hunter.b3233a50d8621362f233.jpeg",
     "static/media/crowd3.jpg": "/cheshirecatcomedy/static/media/crowd3.a8fc08005af6465664c5.jpg",
     "static/media/noah.jpg": "/cheshirecatcomedy/static/media/noah.d6831a7efe070c9c405e.jpg",
@@ -39,10 +40,10 @@
     "static/media/crucible.png": "/cheshirecatcomedy/static/media/crucible.bd20bc9ee8b55c704dfc.png",
     "index.html": "/cheshirecatcomedy/index.html",
     "main.2d5303d1.css.map": "/cheshirecatcomedy/static/css/main.2d5303d1.css.map",
-    "main.5b6e1f13.js.map": "/cheshirecatcomedy/static/js/main.5b6e1f13.js.map"
+    "main.92f7c8bc.js.map": "/cheshirecatcomedy/static/js/main.92f7c8bc.js.map"
   },
   "entrypoints": [
     "static/css/main.2d5303d1.css",
-    "static/js/main.5b6e1f13.js"
+    "static/js/main.92f7c8bc.js"
   ]
 }
