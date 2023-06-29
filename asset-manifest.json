@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cheshirecatcomedy/static/css/main.b490c331.css",
-    "main.js": "/cheshirecatcomedy/static/js/main.9fc9fda8.js",
+    "main.css": "/cheshirecatcomedy/static/css/main.dd02e4fb.css",
+    "main.js": "/cheshirecatcomedy/static/js/main.c3cd6845.js",
     "static/media/Crucible Audience at COMEDY PLUS by Diego Avila.JPG": "/cheshirecatcomedy/static/media/Crucible Audience at COMEDY PLUS by Diego Avila.666ff93aa51b3b48e531.JPG",
     "static/media/Crucible Audience at COMEDY PLUS by Diego Avila 3.JPG": "/cheshirecatcomedy/static/media/Crucible Audience at COMEDY PLUS by Diego Avila 3.dfb557c676e9fa459e08.JPG",
     "static/media/pro6.jpg": "/cheshirecatcomedy/static/media/pro6.4dc08e0fae750ef33a19.jpg",
@@ -66,11 +66,11 @@
     "static/media/robinia.png": "/cheshirecatcomedy/static/media/robinia.475abddec37dd2afc5f9.png",
     "static/media/crucible.png": "/cheshirecatcomedy/static/media/crucible.bd20bc9ee8b55c704dfc.png",
     "index.html": "/cheshirecatcomedy/index.html",
-    "main.b490c331.css.map": "/cheshirecatcomedy/static/css/main.b490c331.css.map",
-    "main.9fc9fda8.js.map": "/cheshirecatcomedy/static/js/main.9fc9fda8.js.map"
+    "main.dd02e4fb.css.map": "/cheshirecatcomedy/static/css/main.dd02e4fb.css.map",
+    "main.c3cd6845.js.map": "/cheshirecatcomedy/static/js/main.c3cd6845.js.map"
   },
   "entrypoints": [
-    "static/css/main.b490c331.css",
-    "static/js/main.9fc9fda8.js"
+    "static/css/main.dd02e4fb.css",
+    "static/js/main.c3cd6845.js"
   ]
 }
