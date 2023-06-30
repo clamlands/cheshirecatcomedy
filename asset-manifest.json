@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cheshirecatcomedy/static/css/main.86e5ef8d.css",
-    "main.js": "/cheshirecatcomedy/static/js/main.fd58b973.js",
+    "main.css": "/cheshirecatcomedy/static/css/main.1b3cd991.css",
+    "main.js": "/cheshirecatcomedy/static/js/main.9cda1beb.js",
     "static/media/Crucible Audience at COMEDY PLUS by Diego Avila.JPG": "/cheshirecatcomedy/static/media/Crucible Audience at COMEDY PLUS by Diego Avila.666ff93aa51b3b48e531.JPG",
     "static/media/Crucible Audience at COMEDY PLUS by Diego Avila 3.JPG": "/cheshirecatcomedy/static/media/Crucible Audience at COMEDY PLUS by Diego Avila 3.dfb557c676e9fa459e08.JPG",
     "static/media/Jason Hillman at COMEDY PLUS at Crucible by Vanessa Tortolano 3.jpg": "/cheshirecatcomedy/static/media/Jason Hillman at COMEDY PLUS at Crucible by Vanessa Tortolano 3.f104b69b16df1b6c9f20.jpg",
@@ -20,7 +20,6 @@
     "static/media/katie.jpeg": "/cheshirecatcomedy/static/media/katie.fc02146a49f717409f47.jpeg",
     "static/media/Maria Acosta at COMEDY PLUS at Crucible by Diego Avila.JPG": "/cheshirecatcomedy/static/media/Maria Acosta at COMEDY PLUS at Crucible by Diego Avila.d7bad7f5871fbac48e49.JPG",
     "static/media/COMEDY PLUS Audience by Jason Hillman 2.jpg": "/cheshirecatcomedy/static/media/COMEDY PLUS Audience by Jason Hillman 2.883cda3fef3898c0ceff.jpg",
-    "static/media/pro1.jpg": "/cheshirecatcomedy/static/media/pro1.5d7cd1e29f4b161f8b65.jpg",
     "static/media/pro4.jpg": "/cheshirecatcomedy/static/media/pro4.8a27fe1b628590648698.jpg",
     "static/media/wwn.png": "/cheshirecatcomedy/static/media/wwn.339dc04f44163a221b37.png",
     "static/media/maga.png": "/cheshirecatcomedy/static/media/maga.4785cf8ceb35661372bc.png",
@@ -46,7 +45,6 @@
     "static/media/noah.jpg": "/cheshirecatcomedy/static/media/noah.0c713d859f8acce3cc21.jpg",
     "static/media/josh.jpg": "/cheshirecatcomedy/static/media/josh.09608acba62abe2073f3.jpg",
     "static/media/sasha.jpg": "/cheshirecatcomedy/static/media/sasha.2a6dd79f394921102b35.jpg",
-    "static/media/hunter.jpeg": "/cheshirecatcomedy/static/media/hunter.b3233a50d8621362f233.jpeg",
     "static/media/group1.jpg": "/cheshirecatcomedy/static/media/group1.68f72b827ddaaa3d2eb7.jpg",
     "static/media/faceoff.jpeg": "/cheshirecatcomedy/static/media/faceoff.ad8faf5afe02fe6fae0c.jpeg",
     "static/media/comedy-plus.jpeg": "/cheshirecatcomedy/static/media/comedy-plus.7dc2c468f1df08ecdcd2.jpeg",
@@ -70,11 +68,11 @@
     "static/media/crucible-text.png": "/cheshirecatcomedy/static/media/crucible-text.e43ef5d9884704786d53.png",
     "static/media/robinia.png": "/cheshirecatcomedy/static/media/robinia.475abddec37dd2afc5f9.png",
     "index.html": "/cheshirecatcomedy/index.html",
-    "main.86e5ef8d.css.map": "/cheshirecatcomedy/static/css/main.86e5ef8d.css.map",
-    "main.fd58b973.js.map": "/cheshirecatcomedy/static/js/main.fd58b973.js.map"
+    "main.1b3cd991.css.map": "/cheshirecatcomedy/static/css/main.1b3cd991.css.map",
+    "main.9cda1beb.js.map": "/cheshirecatcomedy/static/js/main.9cda1beb.js.map"
   },
   "entrypoints": [
-    "static/css/main.86e5ef8d.css",
-    "static/js/main.fd58b973.js"
+    "static/css/main.1b3cd991.css",
+    "static/js/main.9cda1beb.js"
   ]
 }
