@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cheshirecatcomedy/static/css/main.f2a53275.css",
-    "main.js": "/cheshirecatcomedy/static/js/main.57428954.js",
+    "main.css": "/cheshirecatcomedy/static/css/main.50d6ac35.css",
+    "main.js": "/cheshirecatcomedy/static/js/main.7d9ba4c7.js",
     "static/media/Crucible Audience at COMEDY PLUS by Diego Avila.JPG": "/cheshirecatcomedy/static/media/Crucible Audience at COMEDY PLUS by Diego Avila.666ff93aa51b3b48e531.JPG",
     "static/media/Crucible Audience at COMEDY PLUS by Diego Avila 3.JPG": "/cheshirecatcomedy/static/media/Crucible Audience at COMEDY PLUS by Diego Avila 3.dfb557c676e9fa459e08.JPG",
     "static/media/Jason Hillman at COMEDY PLUS at Crucible by Vanessa Tortolano 3.jpg": "/cheshirecatcomedy/static/media/Jason Hillman at COMEDY PLUS at Crucible by Vanessa Tortolano 3.f104b69b16df1b6c9f20.jpg",
@@ -70,11 +70,11 @@
     "static/media/crucible-text.png": "/cheshirecatcomedy/static/media/crucible-text.e43ef5d9884704786d53.png",
     "static/media/robinia.png": "/cheshirecatcomedy/static/media/robinia.475abddec37dd2afc5f9.png",
     "index.html": "/cheshirecatcomedy/index.html",
-    "main.f2a53275.css.map": "/cheshirecatcomedy/static/css/main.f2a53275.css.map",
-    "main.57428954.js.map": "/cheshirecatcomedy/static/js/main.57428954.js.map"
+    "main.50d6ac35.css.map": "/cheshirecatcomedy/static/css/main.50d6ac35.css.map",
+    "main.7d9ba4c7.js.map": "/cheshirecatcomedy/static/js/main.7d9ba4c7.js.map"
   },
   "entrypoints": [
-    "static/css/main.f2a53275.css",
-    "static/js/main.57428954.js"
+    "static/css/main.50d6ac35.css",
+    "static/js/main.7d9ba4c7.js"
   ]
 }
