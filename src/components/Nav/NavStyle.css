@@ -1,84 +1,239 @@
-  @media (min-width: 768px){
-    .navigation {background-color: green;}
+/* ----------- DESKTOP -----------*/
+@media (min-width: 801px){
+    .burger{
+      display: none;
+    }
+
+    .active{
+      color: var(--darkred) !important;
+    }
+    
+    .header{
+      background-color: rgba(0, 0, 0, 0.95);
+      display: flex;
+      color: var(--yellow);
+      align-items: center;
+      padding: 5px 10px;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      justify-content: space-between;
+      border-bottom: 1px solid gray;
+      z-index: 1;
+    }
+    
+    .header-left{
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .socials-header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .logo-container{
+      display: flex;
+      align-items: center;
+      padding: 5px 15px 0px 0px;
+      gap: 5px;
+    }
+  
+    .cat{
+      width: 45px;
+      height: auto;
+    }
+
+    .nav-pic{
+      max-width: 320px;
+      height: auto;
+    }
+  
+    .menu{
+      font-weight: bold;
+      display: flex;
+      gap: 20px;
+      font-size: 20px;
+      flex-wrap: wrap;
+     }
+
+    .nav-link{
+      text-decoration: none;
+      color: var(--yellow);
+      transition: all .25s ease;
+      font-family: Dosis;
+    }
+
+    .ext-link{
+      display: flex;
+      align-items: center;
+      gap: 3px
+    }
+
+    .nav-link:hover{
+      opacity: .7;
+    }
+
+    .link-symbol{
+      width: 20px;
+      height: 20px;
+    }
   }
   
-  .header{
-    display: flex;
-    justify-content: space-between;
-    color: #f3c900;
-    background-color: #ec1f24;
-    align-items: center;
-    padding: 0 10px;
-    border-bottom: 1px solid black;
+  /* ----------- MOBILE -----------*/
+  @media (max-width: 800px){
+    .header{
+      background-color: rgba(0, 0, 0, 0.95);
+      display: flex;
+      justify-content: space-between;
+      color: var(--yellow);
+      align-items: center;
+      padding: 5px 10px;
+      position: sticky;
+      top: 0;
+      width: 100%;
+      box-sizing: border-box;
+      height: 55px;
+      border-bottom: 1px solid gray;
+      z-index: 1;
+    }
+
+    .header-left{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 100%;
+    }
+
+    .active{
+      color: var(--darkred) !important;
+    }
+    
+    .logo-container{
+      display: flex;
+      align-items: center;
+      padding: 5px 15px 0px 0px;
+      gap: 5px;
+    }
+
+    .cat{
+      display: none;
+    }
+
+    .nav-pic{
+      max-width: 320px;
+      height: auto;
+    }
+
+    .socials-header{
+      display: none;
+    }
+  /*
+    .menu{
+      font-weight: bold;
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 20px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      background-color: black;
+      width: 100vw;
+      height: 100vh;
+      padding: 36px 0 0 36px; 
+      z-index: 1;
+     }
+  
+     .menu.visible {
+      transform: translateX(0%);
+      transition: ease-out .25s;
+     }
+  
+     
+     .menu.hidden{
+      transform: translateX(-100%);
+      transition: ease-out .25s;
+     }
+  */
+
+    .menu{
+      font-weight: bold;
+      display: flex;
+      flex-flow: column nowrap;
+      gap: 20px;
+      position: fixed;
+      top: 0;
+      background-color: black;
+      width: 100vw;
+      height: 100vh;
+      padding: 36px 0 0 36px; 
+      z-index: 1;
+      transition: ease-out .25s;
+      left: -100vw;
+    }
+
+    .menu.open {
+      left: 0;
+    }
+
+    .burger{
+      height: 2rem;
+      width: 2rem;
+      display: flex;
+      flex-flow: column nowrap;
+      justify-content: space-around;
+      z-index: 2;
+    }
+  
+    .burger-bar{
+      width: 2rem;
+      height: 0.25rem;
+      background-color: white;
+      border-radius: 10px;
+      transform-origin: left center;
+    }
+    
+    .nav-link{
+      text-decoration: none;
+      color: var(--yellow);
+    }
+    
+    .ext-link{
+      display: flex;
+      align-items: center;
+      gap: 3px
+    }
+    
+    .link-symbol{
+      width: 20px;
+      height: 20px;
+    }
+  
+    /* ----- animations--------- */
+  /* open */
+  .burger-bar.open:nth-child(1){
+      transform: rotate(45deg) translate(-2px, -1px);
+      transition: ease-out 0.5s;
   }
   
-  .menu{
-    font-weight: bold;
-    display: flex;
-    flex-flow: column nowrap;
-    gap: 20px;
-    position: fixed;
-    top: 0;
-    left: 0;
-    background-color: black;
-    width: 100vw;
-    height: 100vh;
-    padding: 36px 0 0 36px; 
-    z-index: 1;
-   }
-
-   .menu.visible {
-    transform: translateX(0%);
-    transition: ease-out .25s;
-   }
-
-   .menu.hidden{
-    transform: translateX(-100%);
-    transition: ease-out .25s;
-   }
-
-  .burger{
-    height: 2rem;
-    width: 2rem;
-    display: flex;
-    flex-flow: column nowrap;
-    justify-content: space-around;
-    z-index: 2;
-  }
-
-  .burger-bar{
-    width: 2rem;
-    height: 0.25rem;
-    background-color: #333;
-    border-radius: 10px;
-    transform-origin: left center;
-    position: relative;
+  .burger-bar.open:nth-child(2){
+      opacity: 0;
+      transition: ease-out 0.5s;
   }
   
-  a{
-    text-decoration: none;
-    color: #f3c900;
+  .burger-bar.open:nth-child(3){
+      transform: rotate(-45deg) translate(0, -1px);
+      transition: ease-out 0.5s;
   }
-
-  /* ----- animations--------- */
-/* open */
-.burger-bar.open:nth-child(1){
-    transform: rotate(45deg);
-    transition: ease-out 0.5s;
-}
-
-.burger-bar.open:nth-child(2){
-    opacity: 0;
-    transition: ease-out 0.5s;
-}
-
-.burger-bar.open:nth-child(3){
-    transform: rotate(-45deg);
-    transition: ease-out 0.5s;
-}
-
-/* closed */
-.burger-bar.closed {
-    transform: rotate(0) translate(0);
-    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
-}
+  
+  /* closed */
+  .burger-bar.closed {
+      transform: rotate(0) translate(0);
+      transition: cubic-bezier(0.175, 0.885, 0.32, 1.275) 0.5s;
+  }
+  }
+  
