@@ -126,6 +126,7 @@
 
     .nav-pic{
       max-width: 320px;
+      width: 100%;
       height: auto;
     }
 
@@ -174,6 +175,7 @@
       z-index: 1;
       transition: ease-out .25s;
       left: -100vw;
+      font-size: 20px;
     }
 
     .menu.open {
@@ -200,6 +202,7 @@
     .nav-link{
       text-decoration: none;
       color: var(--yellow);
+      font-family: Dosis;
     }
     
     .ext-link{

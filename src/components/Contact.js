@@ -12,9 +12,9 @@ export default function Contact() {
     <div className="page">
       <div className="contact">
         <div className="contact-body">
-          <div className="big-heading">CONTACT US</div>
+          <h1>Contact Us</h1>
 
-          <div className="heading">Performers</div>
+          <h3>Performers</h3>
           <div>
             Are you looking to perform on a Cheshire Cat Comedy show? We book
             stand-up comedians, improvisers, drag and burlesque artists,
@@ -30,7 +30,7 @@ export default function Contact() {
             or send an email to <b>cheshirecatcomedyco@gmail.com</b>
           </div>
           <br />
-          <div className="heading">Venues</div>
+          <h3>Venues</h3>
           <div>
             Are you a venue looking to put on a great show in your space?
           </div>
@@ -38,7 +38,7 @@ export default function Contact() {
             Send an email to <b>cheshirecatcomedyco@gmail.com</b>
           </div>
         </div>
-        <div className="big-heading">Follow us on:</div>
+        <h2>Follow us on:</h2>
         <div className="socials">
           <a
             href="https://www.facebook.com/CheshireCatComedyCo"
@@ -60,19 +60,6 @@ export default function Contact() {
           >
             <img
               src={insta}
-              width="100"
-              height="100"
-              alt=""
-              className="icon-big"
-            />
-          </a>
-          <a
-            href="https://twitter.com/ccatcomedyco?lang=en"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <img
-              src={twitter}
               width="100"
               height="100"
               alt=""

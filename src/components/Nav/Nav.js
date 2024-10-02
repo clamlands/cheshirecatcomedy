@@ -93,6 +93,15 @@ export default function Nav() {
             OUR TEAM
           </NavLink>
           <NavLink
+            to="/press"
+            onClick={() => {
+              updateMenu();
+            }}
+            className="nav-link"
+          >
+            PRESS
+          </NavLink>
+          <NavLink
             to="/contact"
             onClick={() => {
               updateMenu();
@@ -143,19 +152,6 @@ export default function Nav() {
             width="100"
             height="100"
             alt="Instagram"
-            className="icon"
-          />
-        </a>
-        <a
-          href="https://twitter.com/ccatcomedyco?lang=en"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={twitter}
-            width="100"
-            height="100"
-            alt="Twitter"
             className="icon"
           />
         </a>

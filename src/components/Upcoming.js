@@ -5,7 +5,7 @@ export default function Upcoming({ events, setEvents }) {
   useEffect(() => {
     async function getEvents() {
       const response = await fetch(
-        "https://www.eventbriteapi.com/v3/organizations/863190459903/events/?status=live&expand=venue&token=WMWDOL2CBPKTYKXXCGQH"
+        `https://www.eventbriteapi.com/v3/organizations/863190459903/events/?status=live&expand=venue&token=${process.env.REACT_APP_API_KEY}`
       );
       const eventsData = await response.json();
       setEvents(eventsData.events);
@@ -17,10 +17,24 @@ export default function Upcoming({ events, setEvents }) {
   function mapItems() {
     return events.map((item, i) => {
       const date = convertDate(item.start.local);
+      if (item.venue.name === "Crucible") {
+        item.venue.name = "Crucible Madison";
+      }
+      if (item.venue.name === "the Cardinal Bar") {
+        item.venue.name = "The Cardinal Bar";
+      }
+      //makes sure the image exists before trying to grab it. Otherwise homepage goes to black screen
+      let showImg;
+      if (item.logo === null) {
+        showImg = null;
+      } else {
+        showImg = item.logo.original.url;
+      }
       return (
         <ShowCard
           key={i}
-          graphic={item.logo.original.url}
+          //graphic={item.logo.original.url}
+          graphic={showImg}
           title={item.name.text
             .toUpperCase()
             .replace("CHESHIRE CAT COMEDY PRESENTS: ", "")}

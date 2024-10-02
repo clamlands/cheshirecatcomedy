@@ -1,4 +1,9 @@
 @font-face {
-    font-family: Dosis;
-    src: url(Dosis.woff2);
-  }
+  font-family: Dosis;
+  src: url(./fonts/Dosis.woff2);
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url(./fonts/Nunito.woff2);
+}

@@ -6,7 +6,7 @@ import eventbrite from "../images/socials/eventbrite.webp";
 
 export default function Footer() {
   return (
-    <div className="footer">
+    <footer>
       <div className="socials-footer">
         <a
           href="https://www.facebook.com/CheshireCatComedyCo"
@@ -35,19 +35,6 @@ export default function Footer() {
           />
         </a>
         <a
-          href="https://twitter.com/ccatcomedyco?lang=en"
-          target="_blank"
-          rel="noreferrer"
-        >
-          <img
-            src={twitter}
-            width="100"
-            height="100"
-            alt="Twitter"
-            className="icon"
-          />
-        </a>
-        <a
           href="https://www.eventbrite.com/o/cheshire-cat-comedy-43584610473"
           target="_blank"
           rel="noreferrer"
@@ -72,6 +59,6 @@ export default function Footer() {
           Noah Mailloux
         </a>
       </div>
-    </div>
+    </footer>
   );
 }
