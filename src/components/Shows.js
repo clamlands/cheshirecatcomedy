@@ -4,6 +4,7 @@ import wwn from "../images/shows/750/wwn-750.webp";
 import rushhour from "../images/shows/750/rushhour-750.webp";
 import machine from "../images/shows/750/machine-750.webp";
 import goodvibes from "../images/shows/750/goodvibes-750.webp";
+import schlock from "../images/shows/750/schlock-750.webp";
 import thirsty from "../images/shows/750/presents/thirsty-750.webp";
 import scaries from "../images/shows/750/presents/scaries-750.webp";
 import shitshow from "../images/shows/750/shitshow-750.webp";
@@ -156,6 +157,27 @@ export default function Shows() {
               <b>MAKE AMERICA GAY AGAIN</b> brings together all-queer lineups of
               drag and stand-up peformers to — you guessed it — make America gay
               again.
+            </p>
+          </div>
+        </div>
+        <div className="side-card flip">
+          <img
+            src={schlock}
+            width="750"
+            height="500"
+            alt="Promo art for The Sh!tshow"
+            className="side-card-pic"
+          />
+          <div className="side-card-body">
+            <h2>SCHLOCK AND AWE</h2>
+            <div>
+              <span className="gray">Third Thirsdays</span> | Crucible Madison
+            </div>
+            <p className="card-text">
+              <b>Schlock and Awe</b> is a long-running Madison show where
+              comedians make jokes during bad movies. Past showings have
+              included The Adventures of Hercules II, Psycho Yoga Instructor,
+              The Last Dragon, and My Santa.
             </p>
           </div>
         </div>

@@ -22,10 +22,12 @@ import destmad from "../images/venues/destmad.webp";
 import crucible from "../images/venues/crucible-text.webp";
 import cabin from "../images/venues/cabin.webp";
 import cardinal from "../images/venues/cardinal.webp";
-import bestmad from "../images/venues/bestmad.webp";
+import bestmad from "../images/venues/best.webp";
+import wiscfest from "../images/venues/wiscfest.webp";
+import lodge from "../images/venues/lodge.webp";
 
 const diegoLink = "https://www.instagram.com/trashpimp/";
-const jasonLink = "https://www.instagram.com/lmnhill";
+const jasonLink = "https://www.instagram.com/lmnhillstudios/";
 const jason = "Jason Hillman";
 const diego = "Diego Avila";
 const erik = "Erik Schwerdtfeger";
@@ -101,7 +103,7 @@ export default function Homepage({ events, setEvents }) {
             <img
               src={bestmad}
               width="160"
-              height="105"
+              height="90"
               alt="Best of Madison"
               className="venue"
             />
@@ -109,7 +111,7 @@ export default function Homepage({ events, setEvents }) {
               src={breese}
               width="95"
               height="95"
-              alt="Breese"
+              alt="Breese Stevens Field"
               className="venue"
             />
             <img
@@ -127,10 +129,17 @@ export default function Homepage({ events, setEvents }) {
               className="venue"
             />
             <img
+              src={wiscfest}
+              width="95"
+              height="95"
+              alt="Wisconsin Science Festival"
+              className="venue"
+            />
+            <img
               src={destmad}
               width="160"
               height="41"
-              alt="Cheshire Cat Comedy"
+              alt="Destination Madison"
               className="venue"
             />
             <img
@@ -138,6 +147,13 @@ export default function Homepage({ events, setEvents }) {
               width="160"
               height="26"
               alt="Comedy Cabin"
+              className="venue"
+            />
+            <img
+              src={lodge}
+              width="160"
+              height="110"
+              alt="The Lincoln Lodge"
               className="venue"
             />
           </div>

@@ -9,12 +9,93 @@ export default function Contact() {
       <h1>Press</h1>
       <div className="press-entry">
         <a
+          href="https://www.wortfm.org/the-yucks-stop-here/"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>The Yucks Stop Here</h2>
+        </a>
+
+        <a
+          href="https://www.wortfm.org/the-yucks-stop-here/"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">WORT.FM</h3>
+        </a>
+        <em>December 12, 2024</em>
+      </div>
+      <div className="press-entry">
+        <a
+          href="https://isthmus.com/events/make-america-gay-again-nov-3/?occ_dtstart=2024-11-03T19:00"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>Isthmus Picks - Make America Gay Again</h2>
+        </a>
+
+        <a
+          href="https://isthmus.com/events/make-america-gay-again-nov-3/?occ_dtstart=2024-11-03T19:00"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">Isthmus</h3>
+        </a>
+        <em>November 3, 2024</em>
+      </div>
+
+      <div className="press-entry">
+        <a
+          href="https://isthmus.com/events/comedy-roast-of-america/?occ_dtstart=2024-11-01T20:00"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>Isthmus Picks - Comedy Roast of America</h2>
+        </a>
+
+        <a
+          href="https://isthmus.com/events/comedy-roast-of-america/?occ_dtstart=2024-11-01T20:00"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">Isthmus</h3>
+        </a>
+        <em>November 1, 2024</em>
+      </div>
+      <div className="press-entry">
+        <a
+          href="https://captimes.com/entertainment/things-to-do-in-madison-comedy-roast-of-america-driftless-film-festival-hmong-new-year/article_e9f8490c-9609-11ef-af55-d7d04d4284cc.html"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>Things to do in Madison - Comedy Roast of America</h2>
+        </a>
+
+        <a
+          href="https://captimes.com/entertainment/things-to-do-in-madison-comedy-roast-of-america-driftless-film-festival-hmong-new-year/article_e9f8490c-9609-11ef-af55-d7d04d4284cc.html"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">The Cap Times</h3>
+        </a>
+        <em>October 30, 2024</em>
+      </div>
+      <div className="press-entry">
+        <a
           href="https://captimes.com/entertainment/things-to-do-in-madison-jin-wen-yu-dance-art-walk-vegan-fest-and-more/article_f8df02d2-7a8c-11ef-8f4f-b3cfea11f458.html"
           target="_blank"
           rel="noreferrer"
           className="no-underline"
         >
-          <h2>Things to do in Madison</h2>
+          <h2>Things to do in Madison - THE SH!TSHOW</h2>
         </a>
 
         <a

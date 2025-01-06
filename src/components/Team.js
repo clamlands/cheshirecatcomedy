@@ -3,6 +3,7 @@ import sasha from "../images/team/750/sasha-750.webp";
 import noah from "../images/team/750/noah-750.webp";
 import josh from "../images/team/750/josh2-750.webp";
 import katie from "../images/team/750/katie-750.webp";
+import cody from "../images/team/750/cody.webp";
 import PhotoCredit from "./PhotoCredit";
 
 export default function Contact() {
@@ -19,7 +20,7 @@ export default function Contact() {
             width="750"
             height="750"
             name="Jason Hillman"
-            link="https://www.instagram.com/lmnhill"
+            link="https://www.instagram.com/lmnhillstudios/"
             className="team-pic"
           />
           <div className="card-body">
@@ -67,7 +68,7 @@ export default function Contact() {
             width="750"
             height="750"
             name="Jason Hillman"
-            link="https://www.instagram.com/lmnhill"
+            link="https://www.instagram.com/lmnhillstudios/"
             className="team-pic"
           />
           <div className="card-body">
@@ -125,11 +126,37 @@ export default function Contact() {
         </div>
         <div className="card">
           <PhotoCredit
+            image={cody}
+            width="638"
+            height="638"
+            name="DMNX"
+            link="https://www.instagram.com/dmnx.photo/"
+            className="team-pic"
+          />
+          <div className="card-body">
+            <h2>Cody Lemke</h2>
+            <p>
+              Cody Lemke is the creator, producer, and host of Schlock and Awe.
+            </p>
+            <h3>Connect:</h3>
+            <div className="team-links">
+              <a
+                href="https://www.instagram.com/oogalord"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="card">
+          <PhotoCredit
             image={katie}
             width="750"
             height="750"
             name="Jason Hillman"
-            link="https://www.instagram.com/lmnhill"
+            link="https://www.instagram.com/lmnhillstudios/"
             className="team-pic"
           />
           <div className="card-body">
