@@ -90,12 +90,12 @@ export default function Homepage({ events, setEvents }) {
           <div className="home-text">
             <p>
               <b>Cheshire Cat Comedy </b>
-              brings live entertainment to venues across the Madison area and
-              beyond.
+              brings award-winning live entertainment to venues across the
+              Madison area and beyond.
             </p>
             <p>
-              Our shows feature stand-up, funny educational lectures, live
-              music, burlesque, drag, and more.
+              Our shows feature stand-up, infotainment, live music, burlesque,
+              drag, and more.
             </p>
           </div>
           <div className="divider grid mobile-hide"></div>

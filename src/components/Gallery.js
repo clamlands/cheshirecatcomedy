@@ -37,6 +37,26 @@ import g31 from "../images/gallery/g31.webp";
 import g32 from "../images/gallery/g32.webp";
 import g33 from "../images/gallery/g33.webp";
 import g34 from "../images/gallery/g34.webp";
+import g35 from "../images/gallery/g35.webp";
+import g36 from "../images/gallery/g36.webp";
+import g37 from "../images/gallery/g37.webp";
+import g38 from "../images/gallery/g38.webp";
+import g39 from "../images/gallery/g39.webp";
+import g40 from "../images/gallery/g40.webp";
+import g41 from "../images/gallery/g41.webp";
+import g42 from "../images/gallery/g42.webp";
+import g43 from "../images/gallery/g43.webp";
+import g44 from "../images/gallery/g44.webp";
+import g45 from "../images/gallery/g45.webp";
+import g46 from "../images/gallery/g46.webp";
+import g47 from "../images/gallery/g47.webp";
+import g48 from "../images/gallery/g48.webp";
+import g49 from "../images/gallery/g49.webp";
+import g50 from "../images/gallery/g50.webp";
+import g51 from "../images/gallery/g51.webp";
+import g52 from "../images/gallery/g52.webp";
+import g53 from "../images/gallery/g53.webp";
+import g54 from "../images/gallery/g54.webp";
 import t0 from "../images/gallery/tall/t0.webp";
 import t1 from "../images/gallery/tall/t1.webp";
 import t2 from "../images/gallery/tall/t2.webp";
@@ -49,6 +69,10 @@ import t8 from "../images/gallery/tall/t8.webp";
 import t9 from "../images/gallery/tall/t9.webp";
 import t10 from "../images/gallery/tall/t10.webp";
 import t11 from "../images/gallery/tall/t11.webp";
+import t12 from "../images/gallery/tall/t12.webp";
+import t13 from "../images/gallery/tall/t13.webp";
+import t14 from "../images/gallery/tall/t14.webp";
+import t15 from "../images/gallery/tall/t15.webp";
 
 const diego = "Diego Avila";
 const diegoLink = "https://www.instagram.com/trashpimp/";
@@ -262,7 +286,13 @@ export default function Gallery() {
             name={dmnx}
             link={dmnxLink}
           ></PhotoCredit>
-
+          <PhotoCredit
+            image={g35}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
           <PhotoCredit
             image={g21}
             height="1195"
@@ -313,6 +343,13 @@ export default function Gallery() {
             link={erikLink}
           ></PhotoCredit>
           <PhotoCredit
+            image={g52}
+            height="1200"
+            width="1800"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+          <PhotoCredit
             image={g31}
             height="1195"
             width="1792"
@@ -332,6 +369,13 @@ export default function Gallery() {
             width="1792"
             name={jason}
             link={jasonLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g53}
+            height="1200"
+            width="1800"
+            name={erik}
+            link={erikLink}
           ></PhotoCredit>
           <PhotoCredit
             image={g29}
@@ -362,11 +406,163 @@ export default function Gallery() {
             link={dmnxLink}
           ></PhotoCredit>
           <PhotoCredit
+            image={g41}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+          <PhotoCredit
             image={g30}
             height="1195"
             width="1792"
             name="Cheshire Cat Comedy"
             link=""
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g54}
+            height="1200"
+            width="1800"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g36}
+            height="1297"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g37}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g38}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+
+          <PhotoCredit
+            image={g40}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+
+          <PhotoCredit
+            image={g43}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g44}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g45}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g51}
+            height="1195"
+            width="1792"
+            name={dmnx}
+            link={dmnxLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={t14}
+            height="994"
+            width="795"
+            name={dmnx}
+            link={dmnxLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g46}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+
+          <PhotoCredit
+            image={g47}
+            height="1153"
+            width="1792"
+            name={dmnx}
+            link={dmnxLink}
+          ></PhotoCredit>
+
+          <PhotoCredit
+            image={g48}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={t15}
+            height="994"
+            width="795"
+            name={dmnx}
+            link={dmnxLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g49}
+            height="1153"
+            width="1792"
+            name={dmnx}
+            link={dmnxLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={t12}
+            height="1193"
+            width="795"
+            name={dmnx}
+            link={dmnxLink}
+          ></PhotoCredit>
+
+          <PhotoCredit
+            image={g50}
+            height="1195"
+            width="1792"
+            name={dmnx}
+            link={dmnxLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g39}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={g42}
+            height="1153"
+            width="1792"
+            name={erik}
+            link={erikLink}
+          ></PhotoCredit>
+          <PhotoCredit
+            image={t13}
+            height="994"
+            width="795"
+            name={erik}
+            link={erikLink}
           ></PhotoCredit>
         </Masonry>
       </ResponsiveMasonry>

@@ -4,11 +4,19 @@ import ShowCard from "./ShowCard";
 export default function Upcoming({ events, setEvents }) {
   useEffect(() => {
     async function getEvents() {
+      console.log(process.env.REACT_APP_API_KEY);
       const response = await fetch(
-        `https://www.eventbriteapi.com/v3/organizations/863190459903/events/?status=live&expand=venue&token=${process.env.REACT_APP_API_KEY}`
+        `https://www.eventbriteapi.com/v3/organizations/863190459903/events/?status=live&expand=venue`,
+        // `https://www.eventbriteapi.com/v3/organizations/863190459903/events/?status=live&expand=venue&token=${process.env.REACT_APP_API_KEY}`
+        {
+          headers: {
+            Authorization: `Bearer ${process.env.REACT_APP_API_KEY}`,
+          },
+        }
       );
       const eventsData = await response.json();
       setEvents(eventsData.events);
+      console.log(eventsData);
     }
     if (events.length === 0) {
       getEvents();
@@ -87,7 +95,7 @@ export default function Upcoming({ events, setEvents }) {
     const month = monthNames[newDate.getMonth()];
     const year = newDate.getFullYear();
 
-    return [`${month} ${day}, ${year}`, `Doors: ${doorTime} Show: ${showTime}`];
+    return [`${month} ${day}, ${year}`, `${showTime}`];
   }
   return <div className="show-cards">{events.length ? mapItems() : ""}</div>;
 }

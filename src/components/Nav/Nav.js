@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
 import external from "../../images/external.webp";
 import ccc from "../../images/ccc.webp";
-import cat from "../../images/cat.webp";
+import cat from "../../images/ccc-logo.webp";
 import fb from "../../images/socials/facebook.webp";
 import insta from "../../images/socials/instagram.webp";
 import twitter from "../../images/socials/twitter.webp";
@@ -32,8 +32,8 @@ export default function Nav() {
         <Link to="/" className="logo-container">
           <img
             src={cat}
-            width="50"
-            height="50"
+            width="100"
+            height="72"
             alt="Cheshire Cat Comedy"
             className="cat"
           />

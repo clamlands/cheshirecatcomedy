@@ -4,6 +4,7 @@ import noah from "../images/team/750/noah-750.webp";
 import josh from "../images/team/750/josh2-750.webp";
 import katie from "../images/team/750/katie-750.webp";
 import cody from "../images/team/750/cody.webp";
+import andrew from "../images/team/750/andrew-750.webp";
 import PhotoCredit from "./PhotoCredit";
 
 export default function Contact() {
@@ -74,8 +75,8 @@ export default function Contact() {
           <div className="card-body">
             <h2>Noah Mailloux</h2>
             <p>
-              Noah Mailloux is a comedian and the producer of Good Vibes and THE
-              SH!TSHOW. He also made this website.
+              Noah Mailloux is a comedian and the producer of Color Me Funny and
+              THE SH!TSHOW. He also made this website.
             </p>
             <h3>Connect:</h3>
             <div className="team-links">
@@ -124,7 +125,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="card">
+        {/* <div className="card">
           <PhotoCredit
             image={cody}
             width="638"
@@ -142,6 +143,33 @@ export default function Contact() {
             <div className="team-links">
               <a
                 href="https://www.instagram.com/oogalord"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Instagram
+              </a>
+            </div>
+          </div>
+        </div>  */}
+        <div className="card">
+          <PhotoCredit
+            image={andrew}
+            width="750"
+            height="750"
+            name="Jason Hillman"
+            link="https://www.instagram.com/lmnhillstudios/"
+            className="team-pic"
+          />
+          <div className="card-body">
+            <h2>Andrew Rynning</h2>
+            <p>
+              Andrew Rynning is a comedian, improviser, and writer, and is the
+              producer of Change My Mind.
+            </p>
+            <h3>Connect:</h3>
+            <div className="team-links">
+              <a
+                href="https://www.instagram.com/amrynning/"
                 target="_blank"
                 rel="noreferrer"
               >

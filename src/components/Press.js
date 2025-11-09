@@ -9,6 +9,186 @@ export default function Contact() {
       <h1>Press</h1>
       <div className="press-entry">
         <a
+          href="https://isthmus.com/events/make-america-gay-again-nov-6/?occ_dtstart=2025-11-06T19:00"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>Isthmus Picks: Make America Gay Again</h2>
+        </a>
+
+        <a
+          href="https://isthmus.com/events/make-america-gay-again-nov-6/?occ_dtstart=2025-11-06T19:00"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">Isthmus</h3>
+        </a>
+        <em>November 6, 2025</em>
+      </div>
+      <div className="press-entry">
+        <a
+          href="https://isthmus.com/events/a-very-roast-battle-halloween/?occ_dtstart=2025-10-25T20:00"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>Isthmus Picks: A Very Roast Battle Halloween</h2>
+        </a>
+
+        <a
+          href="https://isthmus.com/events/a-very-roast-battle-halloween/?occ_dtstart=2025-10-25T20:00"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">Isthmus</h3>
+        </a>
+        <em>October 25, 2025</em>
+      </div>
+      <div className="press-entry">
+        <a
+          href="https://www.wortfm.org/cheshire-cat-comedy-researching-the-silly-side-of-science/"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>Cheshire Cat Comedy: Researching the Silly Side of Science</h2>
+        </a>
+
+        <a
+          href="https://www.wortfm.org/cheshire-cat-comedy-researching-the-silly-side-of-science/"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">WORT.FM</h3>
+        </a>
+        <em>September 24, 2025</em>
+      </div>
+      <div className="press-entry">
+        <a
+          href="https://isthmus.com/events/comedians-of-the-world-telling-jokes/"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>Isthmus Picks - Comedians of the World Telling Jokes</h2>
+        </a>
+
+        <a
+          href="https://isthmus.com/events/comedians-of-the-world-telling-jokes/"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">Isthmus</h3>
+        </a>
+        <em>July 5, 2025</em>
+      </div>
+      <div className="press-entry">
+        <a
+          href="https://isthmus.com/events/make-america-gay-again-june-5/?occ_dtstart=2025-06-05T19:00"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>Isthmus Picks - Make America Gay Again</h2>
+        </a>
+
+        <a
+          href="https://isthmus.com/events/make-america-gay-again-june-5/?occ_dtstart=2025-06-05T19:00"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">Isthmus</h3>
+        </a>
+        <em>June 5, 2025</em>
+      </div>
+      <div className="press-entry">
+        <a
+          href="https://drinkswithdarin.substack.com/p/whats-tappening-get-your-groove-on"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>What's Tappening? - Get Your Groove On</h2>
+        </a>
+
+        <a
+          href="https://drinkswithdarin.substack.com/p/whats-tappening-get-your-groove-on"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">Drinks with Darin</h3>
+        </a>
+        <em>June 4, 2025</em>
+      </div>
+      <div className="press-entry">
+        <a
+          href="https://isthmus.com/arts/isthmus-madison-picks-may-12-to-15-2025/"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>What to do in Madison this week</h2>
+        </a>
+
+        <a
+          href="https://isthmus.com/arts/isthmus-madison-picks-may-12-to-15-2025/"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">Isthmus</h3>
+        </a>
+        <em>May 12, 2025</em>
+      </div>
+      <div className="press-entry">
+        <a
+          href="https://www.wortfm.org/a-horse-walks-into-a-bar/"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>A Horse Walks Into A Bar</h2>
+        </a>
+
+        <a
+          href="https://www.wortfm.org/a-horse-walks-into-a-bar/"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">WORT.FM</h3>
+        </a>
+        <em>March 6, 2025</em>
+      </div>
+      <div className="press-entry">
+        <a
+          href="https://www.channel3000.com/madison-magazine/whats-so-funny/article_0431cccc-ced0-11ef-ac45-97b5b898236e.html"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>What's so funny?</h2>
+        </a>
+
+        <a
+          href="https://www.channel3000.com/madison-magazine/whats-so-funny/article_0431cccc-ced0-11ef-ac45-97b5b898236e.html"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">Madison Magazine</h3>
+        </a>
+        <em>January 15, 2025</em>
+      </div>
+      <div className="press-entry">
+        <a
           href="https://www.wortfm.org/the-yucks-stop-here/"
           target="_blank"
           rel="noreferrer"

@@ -9,6 +9,7 @@ import thirsty from "../images/shows/750/presents/thirsty-750.webp";
 import scaries from "../images/shows/750/presents/scaries-750.webp";
 import shitshow from "../images/shows/750/shitshow-750.webp";
 import maga from "../images/shows/750/presents/maga-750.webp";
+import mind from "../images/shows/750/mind-750.webp";
 import queers from "../images/shows/750/presents/queers-750.webp";
 import paddy from "../images/shows/750/presents/paddy-750.webp";
 import foolin from "../images/shows/750/presents/foolin-750.webp";
@@ -19,6 +20,13 @@ import batman from "../images/shows/750/presents/batman-750.webp";
 import teacher from "../images/shows/750/presents/teacher-750.webp";
 import thanksgiving from "../images/shows/750/presents/thanksgiving-750.webp";
 import magashow from "../images/shows/750/maga-750.webp";
+import kimchi from "../images/shows/750/kimchi-750.webp";
+import color from "../images/shows/750/color-750.webp";
+import asshole from "../images/shows/750/asshole-750.webp";
+import birds from "../images/shows/750/presents/birds-750.webp";
+import worstDate from "../images/shows/750/presents/date-750.webp";
+import puns from "../images/shows/750/presents/puns-750.webp";
+import sheLaughed from "../images/shows/750/presents/shelaughed-750.webp";
 
 export default function Shows() {
   useEffect(() => {
@@ -48,8 +56,7 @@ export default function Shows() {
           <div className="side-card-body">
             <h2>OH, MY!</h2>
             <div>
-              <span className="gray">Second Friday of every month</span> |
-              Crucible Madison
+              <span className="gray">Second Fridays</span> | Crucible Madison
             </div>
             <p className="card-text">
               Half-naughty, half-funny, <b>Oh, My! </b>highlights multitalented
@@ -73,8 +80,7 @@ export default function Shows() {
           <div className="side-card-body">
             <h2>WORDS WITH NERDS</h2>
             <div>
-              <span className="gray">Third Thursday of the every month</span> |
-              Crucible Madison
+              <span className="gray">Third Thursdays</span> | Crucible Madison
             </div>
             <div>
               <p className="card-text">
@@ -94,7 +100,7 @@ export default function Shows() {
             </div>
           </div>
         </div>
-        <div className="side-card">
+        {/* <div className="side-card">
           <img
             src={goodvibes}
             width="750"
@@ -115,6 +121,27 @@ export default function Shows() {
               Central, Light's Out with David Spade, SyFy), Johnny Beehner (FOX,
               XM / Sirius Radio), and Antoine McNeail (founder of 1Motion Out
               Reach Enterprise).
+            </p>
+          </div>
+        </div> */}
+        <div className="side-card">
+          <img
+            src={magashow}
+            width="750"
+            height="500"
+            alt="Promo art for Good Vibes"
+            className="side-card-pic"
+          />
+          <div className="side-card-body">
+            <h2>MAKE AMERICA GAY AGAIN</h2>
+            <div>
+              <span className="gray">Variable Dates</span> | Crucible Madison
+            </div>
+            <p className="card-text">
+              One of Cheshire Cat Comedy's most popular showcases,{" "}
+              <b>MAKE AMERICA GAY AGAIN</b> brings together all-queer lineups of
+              drag and stand-up peformers to — you guessed it — make America gay
+              again.
             </p>
           </div>
         </div>
@@ -139,45 +166,110 @@ export default function Shows() {
             </p>
           </div>
         </div>
-        <div className="side-card">
-          <img
-            src={magashow}
-            width="750"
-            height="500"
-            alt="Promo art for Good Vibes"
-            className="side-card-pic"
-          />
-          <div className="side-card-body">
-            <h2>MAKE AMERICA GAY AGAIN</h2>
-            <div>
-              <span className="gray">Variable Dates</span> | Crucible Madison
-            </div>
-            <p className="card-text">
-              One of Cheshire Cat Comedy's most popular showcases,{" "}
-              <b>MAKE AMERICA GAY AGAIN</b> brings together all-queer lineups of
-              drag and stand-up peformers to — you guessed it — make America gay
-              again.
-            </p>
-          </div>
-        </div>
-        <div className="side-card flip">
+
+        {/* <div className="side-card">
           <img
             src={schlock}
             width="750"
             height="500"
-            alt="Promo art for The Sh!tshow"
+            alt="Schlock and Awe"
             className="side-card-pic"
           />
           <div className="side-card-body">
             <h2>SCHLOCK AND AWE</h2>
             <div>
-              <span className="gray">Third Thirsdays</span> | Crucible Madison
+              <span className="gray">Third Thursdays</span> | Crucible Madison
             </div>
             <p className="card-text">
               <b>Schlock and Awe</b> is a long-running Madison show where
               comedians make jokes during bad movies. Past showings have
               included The Adventures of Hercules II, Psycho Yoga Instructor,
               The Last Dragon, and My Santa.
+            </p>
+          </div>
+        </div> */}
+        <div className="side-card">
+          <img
+            src={kimchi}
+            width="750"
+            height="563"
+            alt="Kimchi Fried Comedy"
+            className="side-card-pic"
+          />
+          <div className="side-card-body">
+            <h2>Kimchi Fried Comedy</h2>
+            <div>
+              <span className="gray">Variable dates</span> | Forward Club
+            </div>
+            <p className="card-text">
+              Korean-American comedian and producer Josh Glen cooks up a custom
+              cocktail of comics at Breese Stevens Field's flamingo-themed
+              Forward Club bar space. Instead of the mustard, mayonnaise, and
+              marmalade often found in stand-up comedy showcases,{" "}
+              <b>Kimchi Fried Comedy</b> features hearty helpings of chocolate,
+              chutney, and chorizo.
+            </p>
+          </div>
+        </div>
+        <div className="side-card flip">
+          <img
+            src={color}
+            width="750"
+            height="500"
+            alt="Color Me Funny"
+            className="side-card-pic"
+          />
+          <div className="side-card-body">
+            <h2>COLOR ME FUNNY</h2>
+            <div>
+              <span className="gray">Variable dates</span> | Hotel Indigo
+            </div>
+            <p className="card-text">
+              <b>Color Me Funny</b> is a stand-up comedy show that brings
+              together a hilarious lineup of the Midwest's best comics at Hotel
+              Indigo in downtown Madison, a former paint factory-turned historic
+              hotel.
+            </p>
+          </div>
+        </div>
+        <div className="side-card">
+          <img
+            src={asshole}
+            width="750"
+            height="500"
+            alt="Ask an Asshole"
+            className="side-card-pic"
+          />
+          <div className="side-card-body">
+            <h2>Ask an Asshole!</h2>
+            <div>
+              <span className="gray">Variable dates</span> | Variable locations
+            </div>
+            <p className="card-text">
+              At <b>Ask an Asshole!</b> comedians riff over advice-seeking
+              questions and weird prompts submitted before the show.
+            </p>
+          </div>
+        </div>
+        <div className="side-card flip">
+          <img
+            src={mind}
+            width="750"
+            height="500"
+            alt="Change My Mind"
+            className="side-card-pic"
+          />
+          <div className="side-card-body">
+            <h2>Change My Mind</h2>
+            <div>
+              <span className="gray">Variable dates</span> | Madison's
+            </div>
+            <p className="card-text">
+              <b>Change My Mind</b> is a comedy debate show where nothing makes
+              sense and no one knows what they're talking about. Comedian
+              debaters face off to present their cases, roast battle style, to a
+              panel of comedian judges. Then the tables are flipped and the
+              judges become the debaters!
             </p>
           </div>
         </div>
@@ -277,14 +369,14 @@ export default function Shows() {
             className="presents-pic"
             loading="lazy"
           />
-          <img
+          {/* <img
             src={maga}
             width="750"
             height="750"
             alt="Promo art for Make America Gay Again"
             className="presents-pic"
             loading="lazy"
-          />
+          /> */}
           <img
             src={scaries}
             width="750"
@@ -355,6 +447,38 @@ export default function Shows() {
             width="750"
             height="750"
             alt="Promo art for Teacher Comedy Tour"
+            className="presents-pic"
+            loading="lazy"
+          />
+          <img
+            src={birds}
+            width="750"
+            height="750"
+            alt="Promo art for Birds & the BS"
+            className="presents-pic"
+            loading="lazy"
+          />
+          <img
+            src={worstDate}
+            width="750"
+            height="750"
+            alt="Promo art for Best Date, Worst Date"
+            className="presents-pic"
+            loading="lazy"
+          />
+          <img
+            src={puns}
+            width="750"
+            height="750"
+            alt="Promo art for Pun-Demic"
+            className="presents-pic"
+            loading="lazy"
+          />
+          <img
+            src={sheLaughed}
+            width="750"
+            height="750"
+            alt="Promo art for Nevertheless, She Laughed"
             className="presents-pic"
             loading="lazy"
           />
