@@ -9,6 +9,46 @@ export default function Contact() {
       <h1>Press</h1>
       <div className="press-entry">
         <a
+          href="https://isthmus.com/arts/isthmus-madison-picks-dec-25-to-31-2025/"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>What to do in Madison this week</h2>
+        </a>
+
+        <a
+          href="https://isthmus.com/arts/isthmus-madison-picks-dec-25-to-31-2025/"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">Isthmus</h3>
+        </a>
+        <em>December 25, 2025</em>
+      </div>
+      <div className="press-entry">
+        <a
+          href="https://captimes.com/entertainment/5-fun-events-happening-in-madison-this-week-dec-24-31/article_f64e0dfc-2b02-4ebb-a572-0ecc14369270.html"
+          target="_blank"
+          rel="noreferrer"
+          className="no-underline"
+        >
+          <h2>5 fun events happening in Madison this week</h2>
+        </a>
+
+        <a
+          href="https://captimes.com/entertainment/5-fun-events-happening-in-madison-this-week-dec-24-31/article_f64e0dfc-2b02-4ebb-a572-0ecc14369270.html"
+          target="_blank"
+          rel="noreferrer"
+          className="press-heading"
+        >
+          <h3 className="press-heading">The Cap Times</h3>
+        </a>
+        <em>December 24, 2025</em>
+      </div>
+      <div className="press-entry">
+        <a
           href="https://isthmus.com/events/make-america-gay-again-nov-6/?occ_dtstart=2025-11-06T19:00"
           target="_blank"
           rel="noreferrer"
